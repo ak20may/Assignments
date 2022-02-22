@@ -1,0 +1,189 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		
+		
+		
+		#boxstyle 
+		{
+			background-color: blanchedalmond;
+			
+			border: 5px solid red;
+			margin: 20px;
+
+		}
+		#profile
+		{
+			width: 80px;
+			height: 40px;
+			
+			background: url(map.jpg) no-repeat right center;
+
+
+		}
+		body
+		{
+
+			color: red;
+			text-align: left ;
+			font-family:  Arial, Helvetica, sans-serif;
+			
+		}
+		p {
+			
+			color: darkred;
+			font-size: 20px;
+			
+			float: left;		
+			padding: 10px;
+		}	
+
+
+
+		 h1{
+		 	color:  darkred;
+		 	font-size: 40px;
+		 	text-align: center;
+		 } 
+		 h2
+		 {
+		 	color:  rebeccapurple;
+		 	text-align: center;
+		 } 
+		 #secheader{
+		 	font-size: 20px;	
+		 	color: rebeccapurple;}
+
+		 .highlight{
+		 	font-size: 20px;
+		 	font-style: italic;
+		 
+		 }	
+
+		 #p1 {
+  				background-color: grey;
+  				
+  				height: 200px;
+
+  				
+			}
+		
+		#p2 {
+  				background-color: grey;
+  				
+  				height: 200px;
+  				
+			}
+
+			#p3 {
+  				background-color: grey;
+  				
+  				height: 200px;
+  				
+			}
+		 section li 
+		 {
+		 	color: green;
+		 }
+
+		 header li{
+		 	list-style: none;
+
+		 }
+		 a:link, a:visited {
+			  text-decoration: none;
+			  background-color: green;
+			  border: 1px solid blue;
+			  color: black;
+			  display: block;
+			  width: 200px;
+			  text-align: center;
+			  margin-bottom: 1px;
+			}
+		a:hover, a:active
+		{
+			background-color: red;
+			color: !important;
+		}	
+
+		header li:nth-child(2){
+			box-shadow: darkblue;
+			border: thick;
+		}
+
+.row {
+  width: 100%;
+}
+
+		/********** Large devices only **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 30%;
+    border: 10px;
+    border-color: black;
+    margin: 10px;
+  }
+  #p2 {
+    width: 30%;
+  	border: 10px;
+   margin: 10px;
+  }
+  #p3 {
+    width: 30%;
+  border: 10px;
+  margin: 10px;
+   
+  }
+
+}
+
+
+/********** tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 25%;
+    margin: 10px;
+
+  }
+  #p2 {
+    width: 25%;
+    margin: 10px;
+    
+  }
+  #p3 {
+
+  	   clear: left;
+  	   width: auto;
+  	   height: auto;
+    	
+    	background-color: red;
+    
+    
+  }
+  body {
+    background-color: white;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  #p1 {
+    width: auto;
+    height: auto;
+  }
+  #p2 {
+    width: auto;
+   height: auto; 
+  }
+  #p3 {
+    width: auto;
+    height: auto;
+  }
+  body {
+    background-color: white;
+  }
+}
+
+
+		
